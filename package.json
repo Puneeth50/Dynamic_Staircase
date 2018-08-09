@@ -10,10 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Puneeth50/Dynamic_Staircase.git"
   },
-  "author": "",
+   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Puneeth50/Dynamic_Staircase/issues"
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   },
   "homepage": "https://github.com/Puneeth50/Dynamic_Staircase#readme"
 }

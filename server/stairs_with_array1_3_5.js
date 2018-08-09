@@ -1,6 +1,5 @@
-function generatePossibleStairsFor_1_2_Combination(stairCaseValue) {
-	var userInput = parseInt(stairCaseValue);
-
+function generatePossibleStairsFor_1_3_5_Combination(stairCaseValue) {
+	var userInput = parseInt(stairCaseValue)
 	
 	if ((!userInput || userInput < 0) && userInput !== 0) {
 		console.log("please enter positive integter starting from zero");
@@ -9,7 +8,7 @@ function generatePossibleStairsFor_1_2_Combination(stairCaseValue) {
         var n1,n2,n3;	
 		n1 = 1, n2 = 1, n3 = 1;
 		
-		for(i = 2; i <=userInput; i++) {
+		for(i = 3; i <=userInput; i++) {
 			n3 = n1 + n2;
 			n1 = n2;
 		    n2 = n3;
@@ -20,4 +19,4 @@ function generatePossibleStairsFor_1_2_Combination(stairCaseValue) {
 	}
 }
 
-module.exports= generatePossibleStairsFor_1_2_Combination;
+module.exports = generatePossibleStairsFor_1_3_5_Combination;
